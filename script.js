@@ -13,7 +13,7 @@ const speakFunc = (input) => {
     window.speechSynthesis.speak(speakInput)
 }
 window.onload = () =>{
-    // speakFunc("Transform your imagination into image")
+    speakFunc("Transform your imagination into image")
 }
 
 async function query() {
